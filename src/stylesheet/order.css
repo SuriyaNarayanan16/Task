@@ -1,0 +1,28 @@
+.success {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(22, 119, 22);
+  border: none;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.w_50 {
+  width: 50%;
+}
+.individual-orders {
+  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #efefef;
+  padding: 10px 0px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_image {
+  width: 140px;
+  height: 80px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 15px;
+}

@@ -1,0 +1,10 @@
+.breadcrumbs-parent {
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs-parent .normal_link {
+  padding: 0px 5px;
+}
+.active-link {
+  color: #3165a1;
+}

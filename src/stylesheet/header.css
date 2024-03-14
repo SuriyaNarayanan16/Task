@@ -1,0 +1,37 @@
+.header-parent {
+  width: 100%;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  background-color: #3165a1;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.card-div {
+  position: relative;
+  margin-right: 20px;
+}
+
+.cart-number {
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  transform: translate(70%, -50%);
+}
